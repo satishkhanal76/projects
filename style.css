@@ -18,7 +18,10 @@ body {
 main {
     min-height: 70vh;
 }
-
+p{
+    text-align: center;
+    color: white;
+}
 .bimage{
     position: fixed;
     top: 0;
