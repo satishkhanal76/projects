@@ -18,11 +18,13 @@ body {
 main {
     min-height: 70vh;
 }
-p{
+
+p {
     text-align: center;
     color: white;
 }
-.bimage{
+
+.bimage {
     position: fixed;
     top: 0;
     left: 0;
@@ -147,7 +149,8 @@ header {
     margin-top: 15px;
     padding: 40px 0;
     /*background-color: #363636;*/
-    background: linear-gradient(180deg, #484848 0%, #121111 100%);
+    background: linear-gradient(180deg, rgba(72, 72, 72, 0.75) 0%, #121111 100%);
+    mix-blend-mode: normal;
 
 }
 
@@ -189,7 +192,7 @@ header {
     color: #dfdfdf;
 }
 
-.description{
+.description {
     text-align: center;
     color: white;
 }
