@@ -31,7 +31,7 @@ p {
     z-index: -1;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('image/bg.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('./image/bg.jpeg');
     background-size: cover;
     background-repeat: repeat;
 }
