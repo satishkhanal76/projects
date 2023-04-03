@@ -29,7 +29,7 @@ p {
     top: 0;
     left: 0;
     z-index: -1;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('image/bg.png');
     background-size: cover;
@@ -238,4 +238,40 @@ header {
     100% {
         color: green;
     }
+}
+
+.card{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fsubmit{
+    cursor: pointer;
+    background: #a8a8a8;
+    font-size: large;
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 40px;
+}
+
+.fsubmit:hover{
+    background: #e2e2e2;
+}
+
+.formtxt{
+    padding: 6px;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    background:rgba(240, 230, 230, 0.486);
+}
+.msg{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+    background:rgba(240, 230, 230, 0.486);
 }
