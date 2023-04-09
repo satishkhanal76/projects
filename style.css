@@ -19,6 +19,14 @@ main {
     min-height: 70vh;
 }
 
+.mainp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
 p {
     text-align: center;
     color: white;
@@ -308,4 +316,16 @@ header {
 .styled-table tbody tr.active-row {
     font-weight: bold;
     color: #009879;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.location img{
+    width: 400px;
+    height: 400px;
 }
