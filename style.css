@@ -19,14 +19,27 @@ main {
     min-height: 70vh;
 }
 
-.bimage{
+.mainp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.bimage {
     position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('image/bg.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('./image/bg.jpeg');
     background-size: cover;
     background-repeat: repeat;
 }
@@ -144,7 +157,8 @@ header {
     margin-top: 15px;
     padding: 40px 0;
     /*background-color: #363636;*/
-    background: linear-gradient(180deg, #484848 0%, #121111 100%);
+    background: linear-gradient(180deg, rgba(72, 72, 72, 0.75) 0%, #121111 100%);
+    mix-blend-mode: normal;
 
 }
 
@@ -186,7 +200,7 @@ header {
     color: #dfdfdf;
 }
 
-.description{
+.description {
     text-align: center;
     color: white;
 }
@@ -232,4 +246,86 @@ header {
     100% {
         color: green;
     }
+}
+
+.card{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fsubmit{
+    cursor: pointer;
+    background: #a8a8a8;
+    font-size: large;
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 40px;
+}
+
+.fsubmit:hover{
+    background: #e2e2e2;
+}
+
+.formtxt{
+    padding: 6px;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    background:rgba(240, 230, 230, 0.486);
+}
+.msg{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+    background:rgba(240, 230, 230, 0.486);
+}
+
+
+/*table style*/
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.location img{
+    width: 400px;
+    height: 400px;
 }
